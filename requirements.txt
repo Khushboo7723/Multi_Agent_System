@@ -1,0 +1,28 @@
+# Multi-Agent Research System
+# Recommended: Python 3.10+
+
+# LangChain core and LCEL (Runnables)
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+
+# Agent orchestration / ReAct-style agents
+langgraph>=1.0,<2.0
+
+# OpenAI model integration
+langchain-openai>=1.0,<2.0
+openai>=2.0
+
+# Tavily search integration
+langchain-tavily>=0.2
+
+# Web scraping with BeautifulSoup
+beautifulsoup4>=4.12
+requests>=2.31
+lxml>=5.0
+
+# Environment variables and configuration
+python-dotenv>=1.0
+pydantic>=2.0
+
+# Optional but useful for tracing, debugging, and evaluating agents
+langsmith>=0.3
